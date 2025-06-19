@@ -1,0 +1,159 @@
+:root {
+    --px-theme: #0788ff;
+    --px-theme-rgb: 7, 136, 255;
+    --px-black: #040c16;
+    --px-white: #fff;
+    --px-text: #707476;
+    --px-heading: #ffffff;
+    --font-space: "Space Grotesk", sans-serif;
+}
+
+@media screen and (min-width: 567px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    header .navbar .logo a span {
+        font-size: 1.6rem;
+    }
+
+    #toggle-menu {
+        display: block;
+    }
+
+    header .navbar nav,
+    header .navbar .right-menu .vertical-line,
+    header .navbar .right-menu .cv-btn .pf-btn span {
+        display: none;
+    }
+
+    header .navbar {
+        position: relative;
+    }
+
+    header .navbar .right-menu {
+        position: absolute;
+        right: 6%;
+    }
+
+    header .navbar nav {
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: linear-gradient(90deg, rgba(7, 136, 255, 1) 0%, rgba(106, 155, 204, 1) 40%, rgba(17, 58, 92, 1) 100%);
+    }
+
+    header .navbar nav a {
+        display: block;
+        padding: 15px;
+        color: white;
+    }
+
+    header .navbar nav.active {
+        display: block;
+        animation: fadeSlideIn 1s ease forwards;
+    }
+
+    @keyframes fadeSlideIn {
+        0% {
+            opacity: 0;
+            transform: translateY(0rem);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(1rem);
+        }
+    }
+
+    header .navbar .right-menu .cv-btn .pf-btn i {
+        color: var(--px-white);
+    }
+
+    header .navbar .right-menu .cv-btn .pf-btn {
+        background-color: transparent;
+        border: 0px solid var(--px-theme);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section.banner-section {
+        margin-top: 25px;
+    }
+
+    section .banner-content {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .banner-content .left-content {
+        text-align: center;
+    }
+
+    .banner-content .left-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .banner-content .left-content h1 {
+        font-size: 2rem;
+    }
+
+    .banner-content .left-content .job-title span {
+        font-size: 1.3rem;
+        line-height: inherit;
+    }
+
+    .banner-content .left-content p {
+        margin: 1rem 0 2rem;
+    }
+
+    .banner-content .left-content .btn-group {
+        gap: 0.5rem;
+        justify-content: center;
+    }
+
+    .banner-content .right-content .banner-image {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .banner-content .right-content .banner-image .img-item h3 {
+        font-size: 1rem;
+    }
+
+    .banner-content .right-content .banner-image .img-item h3.ui {
+        font-size: 1rem;
+    }
+}
