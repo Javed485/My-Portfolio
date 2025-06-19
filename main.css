@@ -465,6 +465,15 @@ section.contact-section{
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: rotateIcon 5s linear infinite;
+}
+@keyframes rotateIcon {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 .contact-section .contact-content .contact-box .contact-detail .detail{
     display: flex;
