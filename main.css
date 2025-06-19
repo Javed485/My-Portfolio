@@ -415,3 +415,67 @@ section .banner-content {
     background-color: var(--black);
     border: 2px solid var(--white);
 }
+
+
+
+
+
+section.contact-section{
+    margin: 1rem 0;
+}
+.contact-section .contact-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5rem;
+    color: var(--white);
+}
+.contact-section .contact-content .contact-box{
+    width: 50%;
+}
+.contact-section .contact-content .contact-box:first-child{
+    align-self: center;
+}
+.contact-section .contact-content .contact-box h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.contact-section .contact-content .contact-box p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.contact-section .contact-content .contact-box p.desc {
+    margin: 1.5rem 0 0;
+}
+.contact-section .contact-content .contact-box .contact-detail {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+.contact-section .contact-content .contact-box .contact-detail i {
+    background-color: #09182a;
+    color: var(--main-color);
+    font-size: 1.8rem;
+    border-radius: .5rem;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section .contact-content .contact-box .contact-detail .detail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contact-section .contact-content .contact-box .contact-detail p {
+    color: var(--main-color);
+    margin-bottom: -3px;
+}
+.contact-section .contact-content .contact-box .contact-detail a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
