@@ -44,7 +44,14 @@ body.light {
     padding-right: 15px;
     width: 100%;
 }
-
+.container-fluid{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+/* ========== Header Section ===========*/
 header {
     position: sticky;
     left: 0;
@@ -209,7 +216,7 @@ header .navbar .right-menu .cv-btn .pf-btn:hover {
     color: var(--white);
     display: none;
 }
-
+/* ========== Banner Section ===========*/
 section.banner-section {
     position: relative;
     margin-top: 50px;
@@ -421,7 +428,7 @@ section .banner-content {
 
 
 
-
+/* ========== Contact Section ===========*/
 section.contact-section{
     margin: 1rem 0;
 }
@@ -546,4 +553,36 @@ section.contact-section{
 .contact-section .contact-content .contact-box button.btn:hover {
     background-color: var(--black);
     border: 2px solid var(--white);
+}
+
+
+
+/* ========== Footer Section ===========*/
+footer{
+    margin-top: 3rem;
+    border-top: 1px solid var(--light-theme);
+}
+footer .footer-content{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--white);
+    padding: 0.8rem;
+    text-transform: capitalize;
+}
+
+
+
+/* ========== Scroll to Top Section ===========*/
+.scroll-section {
+  position: relative;
+}
+
+.scroll-section a img {
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+  z-index: 1000000;
+  width: 30px;
+  border-radius: 0.01rem;
+  box-shadow: 0px 0px 5px 1px #aaa;
 }
