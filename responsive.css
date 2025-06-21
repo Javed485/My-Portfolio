@@ -37,7 +37,33 @@
         max-width: 1320px;
     }
 }
-
+@media screen and (max-width: 1200px) {
+    /* ========== Contact Section ===========*/
+    .contact-section .contact-content {
+        gap: 0rem;
+    }
+    .contact-section .contact-content .contact-box:first-child,
+    .contact-section .contact-content .contact-box:last-child {
+        width: 50%;
+    }
+    .contact-section .contact-content .contact-box h2 {
+        font-size: 2rem;
+    }
+    .contact-section .contact-content .contact-box form {
+        padding: 1rem 1rem 1.5rem;
+    }
+    .contact-section .contact-content .contact-box .heading{
+        font-size: 1.75rem;
+    }
+    .contact-section .contact-content .contact-box .field-box{
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+        gap: 1rem;
+    }
+    .contact-section .contact-content .contact-box .field-box textarea{
+        height: 12rem;
+    }
+}
 @media screen and (max-width: 992px) {
     /* ========== Header Section ===========*/
     header {
@@ -118,31 +144,8 @@
     .about-section .about-content .right-content .about-review{
         margin-top: 1rem;
     }
-
-    /* ========== Contact Section ===========*/
-    .contact-section .contact-content {
-        gap: 0rem;
-    }
-    .contact-section .contact-content .contact-box:first-child,
-    .contact-section .contact-content .contact-box:last-child {
-        width: 50%;
-    }
-    .contact-section .contact-content .contact-box h2 {
-        font-size: 2rem;
-    }
-    .contact-section .contact-content .contact-box form {
-        padding: 1rem 1rem 1.5rem;
-    }
-    .contact-section .contact-content .contact-box .heading{
-        font-size: 1.75rem;
-    }
-    .contact-section .contact-content .contact-box .field-box{
-        display: grid;
-        grid-template-columns: repeat(2, 48%);
-        gap: 1rem;
-    }
-    .contact-section .contact-content .contact-box .field-box textarea{
-        height: 12rem;
+    .about-section .about-content .right-content .about-review .about-item h3 {
+        font-size: 2.5rem;
     }
 }
 
@@ -231,7 +234,7 @@
     .about-section .about-content .right-content .about-review .about-item {
         padding: 0.5rem 1rem;
     }
-    
+
     /* ========== Contact Section ===========*/
     .contact-section .contact-content {
         flex-direction: column;

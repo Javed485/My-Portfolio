@@ -447,7 +447,6 @@ section .banner-content {
     top: -30%;
     left: 30%;
     z-index: -1;
-    /* background-color: yellow; */
 }
 
 .about-section .about-content .left-content .circle-item img {
