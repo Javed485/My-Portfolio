@@ -233,10 +233,14 @@
     }
 
 
-
+    /* ========== About Section ===========*/
     .about-section .about-content {
         flex-direction: column;
         gap: 4rem;
+    }
+    .about-section .about-content .left-content,
+    .about-section .about-content .right-content {
+        width: 100%; 
     }
     .about-section .about-content .left-content .circle-item{
         position: absolute;

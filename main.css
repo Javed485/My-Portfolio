@@ -448,7 +448,7 @@ section.contact-section{
 }
 .contact-section .contact-content .contact-box h2 {
     font-size: 2.5rem;
-    font-weight: 900;
+    font-weight: 600;
 }
 .contact-section .contact-content .contact-box p {
     font-size: 1.2rem;
@@ -605,7 +605,9 @@ footer .footer-content{
     gap: 4rem;
     color: var(--white);
 }
+
 .about-section .about-content .left-content {
+    width: 40%;
     position: relative;
     display: flex;
     align-items: center;
@@ -614,17 +616,16 @@ footer .footer-content{
 
 .about-section .about-content .left-content .circle-item{
     position: absolute;
-    top: -130px;
-    left: 130px;
-    width: 100%;
-    height: 100%;
+    top: -30%;
+    left: 30%;
     z-index: -1;
+    /* background-color: yellow; */
 }
 
 .about-section .about-content .left-content .circle-item img {
     width: 100%;
     height: 100%;
-    object-fit: none;
+    object-fit: contain;
     animation: aboutRotate 20s linear infinite;
 }
 @keyframes aboutRotate {
@@ -644,5 +645,34 @@ footer .footer-content{
     height: 100%
 }
 
+.about-section .about-content .right-content {
+    width: 60%;
+}
 
+.about-section .about-content .right-content h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
 
+.about-section .about-content .right-content p{
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+.about-review{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    color: var(--white);
+}
+.about-review .about-item {
+    background-color: var(--light-theme);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+.about-review .about-item h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
