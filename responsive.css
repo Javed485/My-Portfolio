@@ -235,6 +235,32 @@
         padding: 0.5rem 1rem;
     }
 
+    /* ========== Technologies Section ===========*/
+    .tech-section .tech-content h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }   
+    .tech-section .tech-content .skill-text h6{
+        font-size: 2rem;
+        line-height: inherit;
+    }
+    .tech-section .tech-content .tech-list{
+        margin-top: 1.5rem;
+    }
+    .tech-section .tech-content .tech-list .tech-bar{
+        width: auto;
+        height: auto;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        background-color: transparent;
+    }
+    .tech-section .tech-content .tech-list .tech-bar .tech-item{
+        gap: 0.2rem;
+    }
+    .tech-section .tech-content .skill-text {
+        height: 2rem;
+    }
+
     /* ========== Contact Section ===========*/
     .contact-section .contact-content {
         flex-direction: column;
@@ -274,6 +300,8 @@
         padding: 0.8rem;
         font-size: 1.02rem;
     }
+
+
     footer{
         margin-top: 2rem;
     }
@@ -281,3 +309,18 @@
 
     
 }
+
+@media screen and (max-width: 567px){
+    .about-section .about-content .right-content .about-review .about-item p {
+        font-size: 0.7rem;
+        line-height: 1.4;
+    }
+} 
+@media screen and (max-width: 367px){
+    .contact-section .contact-content .contact-box .contact-detail a{
+        white-space: nowrap; 
+        width: 10rem; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+} 

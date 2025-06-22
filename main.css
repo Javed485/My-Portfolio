@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
 * {
     padding: 0;
@@ -16,6 +17,7 @@
     --grey-text: #707476;
     --white-heading: #ffffff;
     --font-space: "Space Grotesk", sans-serif;
+    --font-poppin: "Poppins", sans-serif;
 }
 
 body {
@@ -693,38 +695,50 @@ footer .footer-content{
 }
 
 
-
+/* ========== Technologies Section ===========*/
 .tech-section .tech-content{
     margin: 3rem 0;
     color: var(--white);
 }
+
 .tech-section .tech-content h2 {
     font-size: 2.5rem;
     font-weight: 600;
 }
-.tech-section .tech-content p {
+.tech-section .tech-content p.desc {
     font-size: 1.1rem;
     line-height: 1.4;
     margin: 1.5rem 0 0;
 }
 
-.tech-list{
+.tech-section .tech-content .tech-list{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;
     width: fit-content;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
-.tech-list .tech-bar .tech-item{
+.tech-section .tech-content .tech-list .tech-bar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 4.2rem;
+    height: 12rem;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: var(--light-theme);
+}
+.tech-section .tech-content .tech-list .tech-bar .tech-item{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
     position: relative;
 }
-.tech-list .tech-bar .tech-item i{
+.tech-section .tech-content .tech-list .tech-bar .tech-item i{
     width: 4.2rem;
     height: 4.2rem;
     font-size: 2.25rem;
@@ -739,34 +753,75 @@ footer .footer-content{
     transition: all 0.5s ease;
 }
 
-.tech-bar:hover .tech-item i,
-.tech-list .tech-bar .tech-item i:hover{
+.tech-section .tech-content .tech-list .tech-bar:hover .tech-item i,
+.tech-section .tech-content .tech-list .tech-bar .tech-item i:hover{
     transform: translateY(-12px);
     color: var(--white);
     background-color: var(--main-color);
 }
-.tech-list .tech-bar .tech-item h3{
+.tech-section .tech-content .tech-list .tech-bar .tech-item h3{
     font-size: 1rem;
     color: var(--white);
     font-weight: 500;
+    transition: all 0.5s ease;
 }
-.tech-bar{
+.tech-section .tech-content .tech-list .tech-bar:hover .tech-item h3{
+    transform: translateY(-12px);
+}
+.tech-section .tech-content .skill-text {
+    position: relative;
+    width: 100%;
+    height: 7rem;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: 4.2rem;
-    height: 12rem;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    background-color: var(--light-theme);
+    align-items: center;
+    justify-content: center;
 }
-.tech-section .tech-content .skill-image {
-    width: 100%;
-    height: 100%;
-    border-bottom: 2px solid var(--light-theme);
+.tech-section .tech-content .skill-text h6{
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 1;
+    font-family: var(--font-poppin);
+    text-transform: uppercase;
+    position: absolute;
+	top: 0;
 }
-.skill-image img{
-    width: 100%;
-    height: 100%;
-    filter: opacity(0.4);
+
+.tech-section .tech-content .skill-text h6:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: .2rem var(--light-theme);
+}
+
+.tech-section .tech-content .skill-text h6:nth-child(2) {
+	color: var(--main-color);
+	animation: animate 3s ease-in-out infinite;
+}
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			16% 44%,
+			33% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
 }
