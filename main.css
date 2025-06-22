@@ -750,7 +750,18 @@ footer .footer-content{
     overflow: hidden;
     transition: all 0.5s ease;
 }
-
+.tech-section .tech-content .tech-list .tech-bar .tech-item img{
+    width: 4.2rem;
+    height: 4.2rem;
+    font-size: 2.25rem;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: 5px solid var(--light-theme);
+    padding: .6rem;
+    transition: all 0.5s ease;
+}
+.tech-section .tech-content .tech-list .tech-bar .tech-item img:hover,
+.tech-section .tech-content .tech-list .tech-bar:hover .tech-item img,
 .tech-section .tech-content .tech-list .tech-bar:hover .tech-item i,
 .tech-section .tech-content .tech-list .tech-bar .tech-item i:hover{
     transform: translateY(-12px);

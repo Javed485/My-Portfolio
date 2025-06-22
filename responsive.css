@@ -241,7 +241,8 @@
         font-weight: 700;
     }   
     .tech-section .tech-content .skill-text h6{
-        font-size: 2rem;
+        font-size: 3.50rem;
+        font-weight: 700;
         line-height: inherit;
     }
     .tech-section .tech-content .tech-list{
@@ -316,13 +317,30 @@
     
 }
 
+
 @media screen and (max-width: 567px){
+    .tech-section .tech-content .skill-text h6{
+        font-size: 2.75rem;
+    }
+}
+
+@media screen and (max-width: 367px){
     .about-section .about-content .right-content .about-review .about-item p {
         font-size: 0.7rem;
         line-height: 1.4;
     }
-} 
-@media screen and (max-width: 367px){
+    .about-section .about-content .right-content .about-review .about-item {
+        padding: 0.5rem 0.5rem;
+    }
+    .about-section .about-content .right-content .about-review .about-item h3 {
+        font-size: 1.75rem;
+    }
+    .tech-section .tech-content .tech-list .tech-bar .tech-item h3{
+        width: 7rem; 
+    }
+    .tech-section .tech-content .skill-text h6{
+        font-size: 2.5rem;
+    }
     .contact-section .contact-content .contact-box .contact-detail a{
         white-space: nowrap; 
         width: 10rem; 

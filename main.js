@@ -33,4 +33,19 @@ var typed = new Typed('.text2', {
     loop: true,
 });
 
+// Image hover effect
+let techbar = document.querySelector('.tech-img');
+let techimg = document.querySelector('.tech-bar img');
+let originalSrc = "assets/jquery.png";
+let hoverSrc = "assets/jquery-hover.png";
 
+function toggleImage(isHover) {
+    techimg.src = isHover ? hoverSrc : originalSrc;
+}
+
+// Events
+techimg.addEventListener('mouseover', () => toggleImage(true));
+techimg.addEventListener('mouseout', () => toggleImage(false));
+
+techbar.addEventListener('mouseover', () => toggleImage(true));
+techbar.addEventListener('mouseout', () => toggleImage(false));
