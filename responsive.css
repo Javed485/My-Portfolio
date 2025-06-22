@@ -257,6 +257,12 @@
     .tech-section .tech-content .tech-list .tech-bar .tech-item{
         gap: 0.2rem;
     }
+    .tech-section .tech-content .tech-list .tech-bar .tech-item h3{
+        white-space: nowrap; 
+        width: 6rem; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
     .tech-section .tech-content .skill-text {
         height: 2rem;
     }
