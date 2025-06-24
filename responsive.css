@@ -269,6 +269,9 @@
     }
 
     /* ========== Education Section ===========*/
+    .edu-section .edu-content {
+        margin: 4rem 0 0 0;
+    }
     .edu-section .edu-content h2 {
         font-size: 1.5rem;
         font-weight: 700;
