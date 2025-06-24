@@ -96,7 +96,7 @@
     <section class="about-section" id="about">
         <div class="container">
             <div class="about-content">
-                <div class="left-content">
+                <div class="left-content" data-aos="fade-up">
                     <div class="circle-item">
                         <img src="assets/effect-1.svg" alt="About Image">
                     </div>
@@ -104,7 +104,7 @@
                         <img src="assets/Group-46953-2.png" alt="About Image">
                     </div>
                 </div>
-                <div class="right-content">
+                <div class="right-content" data-aos="fade-up">
                     <h2>About Me</h2>  
                     <p class="summary">I am a passionate web developer with a knack for creating stunning websites. I love to explore new technologies and implement them in my projects. My goal is to build user-friendly and efficient web applications that provide a great user experience.</p>
                    
@@ -130,10 +130,10 @@
     <!-- Technologies Section -->
     <section class="tech-section">
         <div class="container">
-            <div class="tech-content">
+            <div class="tech-content" data-aos="fade-up">
                 <h2>My Skills</h2>
                 <p class="desc">I have experience working with a variety of technologies and frameworks. Here are some of the key technologies I use in my projects.</p>
-                <div class="tech-list">
+                <div class="tech-list" data-aos="fade-up">
                     <div class="tech-bar" >
                         <div class="tech-item">
                             <i class="fa-brands fa-html5"></i>
@@ -206,13 +206,13 @@
     <!-- Education Section -->
     <section class="edu-section">
         <div class="container">
-            <div class="edu-content">
+            <div class="edu-content" data-aos="fade-up">
                 <h2>My Education</h2>
                 <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab id velit qui, voluptatibus dignissimos architecto iste quia consequuntur m dolor sit amet, consectetur adipisicing elit. Ab id velit qui, voluptatibus dignissimos architecto iste quia consequuntur</p>
                 <div class="edu-timelime">
                     <div class="edu-box left-box">
                         <img class="vertical-img" src="assets/logo.png" alt="">
-                        <div class="text-box" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="text-box" data-aos="fade-up">
                             <div class="degree">
                                 <a href="#">Certficate</a>
                             </div>
@@ -299,7 +299,7 @@
     <section class="contact-section">
         <div class="container">
             <div class="contact-content">
-                <div class="contact-box">
+                <div class="contact-box" data-aos="fade-up">
                     <h2>Let's Work Together</h2>
                     <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate corrupti
                         numquam commodi itaque reprehenderit magnam in blanditiis aliquid deserunt iure.</p>
@@ -325,7 +325,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact-box">
+                <div class="contact-box" data-aos="fade-up">
                     <form action="#">
                         <h2 class="heading">Contact <span>Me!</span></h2>
                         <div class="field-box">
@@ -364,8 +364,10 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
-        // disable: false
+        AOS.init({
+            duration: 1000,
+            // disable: false
+        });
     </script>
     
 
