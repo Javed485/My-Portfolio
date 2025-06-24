@@ -348,3 +348,33 @@
         text-overflow: ellipsis; 
     }
 } 
+
+
+
+@media screen and (max-width: 767px){
+    .edu-section .edu-content .edu-timelime{
+        margin: 2rem 0;
+    }
+    .edu-section .edu-content .edu-timelime .edu-box {
+        width: 100%;
+        padding-left: 5rem;
+        padding-right: 0rem;
+        padding-bottom: 1rem;
+    }
+    .edu-section .edu-content .edu-timelime .right-box{
+        left: 0%;
+    }
+    .edu-section .edu-content .edu-timelime::after{
+        left: 2rem;
+    }
+    .edu-section .edu-content .edu-timelime .left-box img.vertical-img,
+    .edu-section .edu-content .edu-timelime .right-box img.vertical-img{
+        left: 0.9rem;
+    }
+    .edu-section .edu-content .edu-timelime .edu-box .text-box .left-box-arrow,
+    .edu-section .edu-content .edu-timelime .edu-box .text-box .right-box-arrow{
+        border-right: 15px solid var(--px-theme);
+        border-left: 0rem;
+        left: -1rem;
+    }
+}
