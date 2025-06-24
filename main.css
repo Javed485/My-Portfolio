@@ -13,7 +13,7 @@
     --light-theme: #09182a;
     --black: #040c16;
     --white: #fff;
-    --grey-text: #707476;
+    --grey-text: #c7c7c7;
     --white-heading: #ffffff;
     --font-space: "Space Grotesk", sans-serif;
 }
@@ -673,7 +673,7 @@ section .banner-content {
 /* ========== Education Section ===========*/
 .edu-section .edu-content{
     position: relative;
-    margin: 3rem 0;
+    margin: 2rem 0;
     color: var(--white);
 }
 
@@ -721,8 +721,9 @@ section .banner-content {
 }
 .edu-section .edu-content .edu-timelime .edu-box .text-box .edu-right li{
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.4;
+    color: var(--grey-text);
 }
 .edu-section .edu-content .edu-timelime .edu-box .text-box .degree{
     position: relative;
@@ -976,4 +977,120 @@ footer .footer-content{
 }
 
 
+/* ========== Projects Section ===========*/
+.project-section .project-content{
+    margin: 2rem 0;
+    color: var(--white);
+}
+.project-section .project-content h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.project-section .project-content p.desc{
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin: 1.5rem 0 0;
+}
+.project-section .project-content .project-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2.5%;
+    margin-top: 3rem;
+}
+.project-section .project-content .project-container .project-box{
+    width: 23%;
+    padding: 0.75rem;
+    margin-bottom: 2.5%;
+    border-radius: 0.6rem;
+    background-color: var(--light-theme);
+    border: 0.1rem solid var(--main-color);
+}
+.project-section .project-content .project-container .project-box .project-img{
+    width: 100%;
+    height: 10rem;
+    border-radius: 0.6rem;
+    overflow: hidden;
+    position: relative;
+}
+.project-section .project-content .project-container .project-box .project-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.6rem;
+}
+.project-section .project-content .project-container .project-box .project-img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 136, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.project-section .project-content .project-container .project-box .project-img:hover .overlay {
+    opacity: 1;
+}
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 25%;
+    height: 25%;
+    font-size: 1.7rem;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    background-color: var(--light-theme);
+}
+.project-section .project-content .project-container .project-box .project-text h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    color: var(--main-color)
+}
+.project-section .project-content .project-container .project-box .project-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--grey-text);
+    margin-top: 0.6rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
+.project-section .project-content .project-container .project-box .project-text a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.75rem;
+    background-color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 4px;
+    box-shadow: none;
+    color: var(--white);
+    cursor: pointer;
+    font-weight: 500;
+    padding: 4px 0px;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    transition: all 0.35s ease;
+    text-decoration: none;
+}
+
+.project-section .project-content .project-container .project-box .project-text a:hover {
+    background-color: var(--black);
+    border: 2px solid var(--white);
+}
