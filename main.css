@@ -837,7 +837,18 @@ section .banner-content {
     z-index: 9999;
     overflow: auto;
     background-color: rgba(4, 12, 22, 0.9);
-    transition: all .3s linear;
+    animation: animatetop 0.3s ease-out;
+}
+
+@keyframes animatetop {
+    from {
+        top: -10rem;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
 }
 
 .modalImg-section .modal .modal-content {
