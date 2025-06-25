@@ -377,7 +377,30 @@
 } 
 
 
-
+@media screen and (max-width: 992px){
+    .project-section .project-content .project-container {
+        margin-top: 2rem;
+    }
+    .project-section .project-content .project-container .project-box {
+        width: 31%;
+    }
+}
 @media screen and (max-width: 767px){
-    
+    .project-section .project-content h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .project-section .project-content .project-container {
+        margin-top: 1.75rem;
+    }
+    .project-section .project-content .project-container .project-box {
+        width: 48%;
+    }
+    .project-section .project-content .project-container .project-box .project-img {
+        height: 8rem;
+    }
+    .project-section .project-content .project-container .project-box .project-text h3 {
+        font-size: 1.1rem;
+        margin-top: 0.9rem;
+    }
 }

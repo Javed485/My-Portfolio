@@ -49,3 +49,6 @@ techimg.addEventListener('mouseout', () => toggleImage(false));
 
 techbar.addEventListener('mouseover', () => toggleImage(true));
 techbar.addEventListener('mouseout', () => toggleImage(false));
+
+
+
