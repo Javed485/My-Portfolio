@@ -502,7 +502,7 @@ section .banner-content {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-top: 2rem;
+    margin-top: 0.6rem;
     color: var(--white);
 }
 
@@ -1087,7 +1087,7 @@ section .banner-content {
 
 /* ========== Contact Section ===========*/
 section.contact-section {
-    margin: 1rem 0;
+    margin: 4rem 0 1rem 0;
 }
 
 .contact-section .contact-content {
