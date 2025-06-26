@@ -147,6 +147,29 @@
     .about-section .about-content .right-content .about-review .about-item h3 {
         font-size: 2.5rem;
     }
+    /* ========== Technical Section ===========*/
+    .tech-section .tech-content .tech-list {
+        margin-bottom: 1rem;
+    }
+    .tech-section .tech-content .tech-list .tech-bar{
+        width: auto;
+        height: auto;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        background-color: transparent;
+    }
+    .tech-section .tech-content .tech-list .tech-bar .tech-item{
+        gap: 0.2rem;
+    }
+    .tech-section .tech-content .tech-list .tech-bar .tech-item h3{
+        white-space: nowrap; 
+        width: 6rem; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+    .tech-section .tech-content .skill-text h6 {
+        font-size: 6rem;
+    }
     /* ========== Footer Section ===========*/
     footer .footer-content {
         font-size: 1.1rem;
@@ -257,22 +280,6 @@
     }
     .tech-section .tech-content .tech-list{
         margin-top: 1.5rem;
-    }
-    .tech-section .tech-content .tech-list .tech-bar{
-        width: auto;
-        height: auto;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        background-color: transparent;
-    }
-    .tech-section .tech-content .tech-list .tech-bar .tech-item{
-        gap: 0.2rem;
-    }
-    .tech-section .tech-content .tech-list .tech-bar .tech-item h3{
-        white-space: nowrap; 
-        width: 6rem; 
-        overflow: hidden;
-        text-overflow: ellipsis; 
     }
     .tech-section .tech-content .skill-text {
         height: 2rem;
