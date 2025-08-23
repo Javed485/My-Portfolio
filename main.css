@@ -695,6 +695,155 @@ section .banner-content {
                 0% 100%);
     }
 }
+/* ========== Experiences Section ===========*/
+.exp-section .exp-content {
+    position: relative;
+    margin: 2rem 0;
+    color: var(--white);
+}
+
+.exp-section .exp-content h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.exp-section .exp-content p.desc {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin: 1.5rem 0 0;
+}
+
+.exp-section .exp-content .exp-contain {
+    position: relative;
+    margin-top: 3rem;
+}
+.connecting-lines{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.connecting-lines .logo {
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    flex: 0 0 15%;
+    max-width: 15%;
+    position: relative;
+}
+.connecting-lines .circle {
+    max-height: 60px;
+    width: 60px;
+    z-index: 2;
+    font-weight: bold;
+}
+.connecting-lines .circle img{
+    width: 100%;
+    border-radius: 20%;
+}
+.exp-box{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+.exp-box h4{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+.exp-box p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: -webkit-auto;
+}
+.exp-contain .timeline{
+    display: flex;
+    flex-wrap: wrap;
+}
+.exp-contain .timeline div {
+    padding: 0;
+    height: 40px;
+}
+.exp-contain .timeline .logo {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    flex: 0 0 15%;
+    max-width: 15;
+}
+.exp-contain .timeline .corner {
+    border: 3px solid var(--main-color);
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+.exp-contain .timeline .top-right {
+    left: 50%;
+    top: -50%;
+}
+.exp-contain .timeline .col-8{
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+.exp-contain .timeline hr {
+    margin: 0;
+    top: 17px;
+    position: relative;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    background-color: var(--main-color);
+    height: 3px;              
+    border: none;              
+}
+.exp-contain .timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+}
+.connecting-lines .logo::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid var(--main-color);
+    z-index: 1;
+}
+.connecting-lines .logo.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+}
+.connecting-lines.second{
+    display: flex;
+    justify-content: end;
+}
+.connecting-lines .text-right{
+    text-align: right;
+}
+/* .connecting-lines .logo.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+} */
+.connecting-lines .logo.half::after {
+    height: 50%;
+    left: calc(50% - 3px);
+    top: 0;
+}
+.connecting-lines .logo.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+}
+.timeline .top-left {
+    left: -50%;
+    top: -50%;
+}
+.timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+}
 
 /* ========== Projects Section ===========*/
 .project-section .project-content {

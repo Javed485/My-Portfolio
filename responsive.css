@@ -284,7 +284,18 @@
     .tech-section .tech-content .skill-text {
         height: 2rem;
     }
-
+    /* ========== Experience Section ===========*/
+    .connecting-lines{
+        gap: 10px;
+    }
+    .exp-box {
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+    .connecting-lines .circle {
+        max-height: 50px;
+        width: 50px;
+    }
     /* ========== Education Section ===========*/
     .edu-section .edu-content h2 {
         font-size: 1.5rem;
@@ -407,7 +418,7 @@
 }
 @media screen and (max-width: 768px){
     .project-section .project-content {
-        margin: 4rem 0 0 0;
+        margin: 2rem 0 0 0;
     }
     .project-section .project-content h2 {
         font-size: 1.5rem;
@@ -459,3 +470,24 @@
         margin-top: 0.3rem;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
