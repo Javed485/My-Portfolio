@@ -285,6 +285,14 @@
         height: 2rem;
     }
     /* ========== Experience Section ===========*/
+    .exp-section .exp-content h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .exp-section .exp-content .exp-contain {
+        position: relative;
+        margin-top: 2rem;
+    }
     .connecting-lines{
         gap: 10px;
     }
@@ -295,6 +303,10 @@
     .connecting-lines .circle {
         max-height: 50px;
         width: 50px;
+    }
+    .exp-box h4 {
+        font-size: 1.3rem;
+        font-weight: 600;
     }
     /* ========== Education Section ===========*/
     .edu-section .edu-content h2 {
