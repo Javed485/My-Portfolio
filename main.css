@@ -824,15 +824,15 @@ section .banner-content {
 .connecting-lines .text-right{
     text-align: right;
 }
-/* .connecting-lines .logo.full::after {
+.connecting-lines .logo.full::after {
     height: 100%;
     left: calc(50% - 3px);
-} */
-.connecting-lines .logo.half::after {
+}
+/* .connecting-lines .logo.half::after {
     height: 50%;
     left: calc(50% - 3px);
     top: 0;
-}
+} */
 .connecting-lines .logo.top::after {
     height: 50%;
     left: 50%;
@@ -945,9 +945,8 @@ section .banner-content {
     color: var(--grey-text);
     margin-top: 0.6rem;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
-    /* white-space: nowrap; */
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -1067,6 +1066,7 @@ section .banner-content {
     gap: 0.3rem;
     list-style-type: none;
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 .modalImg-section .modal .modal-content .modal-body .modal-text ul li{
     font-size: 0.9rem;
@@ -1076,7 +1076,11 @@ section .banner-content {
     color: var(--white);
     background-color: var(--main-color);
 }
-
+.modalImg-section .modal .modal-content .modal-body .modal-text ul li a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: var(--white);
+}
 /* ========== Education Section ===========*/
 .edu-section .edu-content {
     position: relative;
@@ -1227,13 +1231,6 @@ section .banner-content {
 .edu-section .edu-content .edu-timelime .right-box img.vertical-img {
     left: -1.1rem;
 }
-
-
-
-
-
-
-
 
 
 /* ========== Contact Section ===========*/
@@ -1401,8 +1398,6 @@ footer .footer-content {
     text-transform: capitalize;
 }
 
-
-
 /* ========== Scroll to Top Section ===========*/
 .scroll-section {
     position: relative;
@@ -1423,5 +1418,48 @@ footer .footer-content {
     align-items: center;
     justify-content: center;
 }
+
+/* ========== Details Page Section ===========*/
+.project-section .project-content .project-container {
+    gap: 2%;
+}
+.project-section .project-content .project-container .project-detail {
+    width: 32%;
+}
+.project-section .project-content .project-container .project-detail .project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 0.6rem;
+}
+.project-section .project-content .project-container .project-box .projectsBtn p {
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.projectsBtn ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.projectsBtn ul li{
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 0.2rem;
+    padding: 0.1rem 0.5rem;
+    color: var(--white);
+    background-color: var(--main-color);
+}
+.projectsBtn ul li a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: var(--white);
+}
+
+
 
 
