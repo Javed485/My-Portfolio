@@ -863,6 +863,11 @@ section .banner-content {
     line-height: 1.4;
     margin: 1.5rem 0 0;
 }
+.project-section .project-content ul.para-list{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
 
 .project-section .project-content .project-container {
     display: flex;
@@ -1042,7 +1047,7 @@ section .banner-content {
 .modalImg-section .modal .modal-content .modal-body .modal-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .modalImg-section .modal .modal-content .modal-body .modal-text h3{
@@ -1134,7 +1139,7 @@ section .banner-content {
 
 .edu-section .edu-content .edu-timelime .edu-box .text-box .edu-right {
     position: relative;
-    left: -3rem;
+    left: 1rem;
     list-style-position: outside;
 }
 
