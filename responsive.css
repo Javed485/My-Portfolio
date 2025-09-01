@@ -301,8 +301,8 @@
         gap: 10px;
     }
     .exp-box {
-        flex: 0 0 70%;
-        max-width: 70%;
+        flex: 0 0 80%;
+        max-width: 80%;
     }
     .connecting-lines .circle {
         max-height: 50px;
