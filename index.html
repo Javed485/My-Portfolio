@@ -26,9 +26,9 @@
                 <nav class="main-menu">
                     <a href="#home" class="active">Home</a>
                     <a href="#about">About Me</a>
-                    <a>Projects</a>
-                    <a>Services</a>
-                    <a>Contact</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#project">Projects</a>
+                    <a href="#contact">Contact</a>
                 </nav>
                 <div class="right-menu">
                     <div class="vertical-line"></div>
@@ -205,7 +205,7 @@
     </section>
 
     <!-- Experience Section -->
-    <section class="exp-section">
+    <section class="exp-section" id="experience">
         <div class="container">
             <div class="exp-content">
                 <h2 data-aos="fade-up">My Experiences</h2>
@@ -304,7 +304,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section class="project-section">
+    <section class="project-section" id="project">
         <div class="container">
             <div class="project-content">
                 <h2 data-aos="fade-up">My Projects</h2>
@@ -454,7 +454,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
         <div class="container">
             <div class="contact-content">
                 <div class="contact-box">
@@ -511,7 +511,7 @@
 
     <!-- Scroll Section -->
     <div class="scroll-section">
-        <a href="javascript:void(0)" target="_blank">
+        <a href="javascript:void(0)" id="scrollToTopBtn">
             <i class="fa-solid fa-arrow-up-from-bracket"></i>
         </a>
     </div>
@@ -649,11 +649,7 @@
         imgCross_2.onclick = function() {
             projectModal_2.style.display = "none";
         }
-        // window.onclick = function(event) {
-        //     if (event.target == projectModal_2) {
-        //         projectModal_2.style.display = "none";
-        //     }
-        // }
+
 
         let projectModal_3 = document.getElementById("modal_3");
         let projectbtn_3 = document.getElementById("projectbtn_3");
@@ -664,11 +660,7 @@
         imgCross_3.onclick = function() {
             projectModal_3.style.display = "none";
         }
-        // window.onclick = function(event) {
-        //     if (event.target == projectModal_3) {
-        //         projectModal_3.style.display = "none";
-        //     }
-        // }
+
 
         let projectModal_4 = document.getElementById("modal_4");
         let projectbtn_4 = document.getElementById("projectbtn_4");
@@ -679,14 +671,8 @@
         imgCross_4.onclick = function() {
             projectModal_4.style.display = "none";
         }
-        // window.onclick = function(event) {
-        //     if (event.target == projectModal_4) {
-        //         projectModal_4.style.display = "none";
-        //     }
-        // }
 
        
-
         AOS.init({
             duration: 1000,
             // disable: false

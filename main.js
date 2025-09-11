@@ -25,6 +25,20 @@ document.addEventListener('click', (e) => {
     }
 });
 
+// Navbar click dynamic Underline 
+let navLinks = document.querySelectorAll('.main-menu a');
+for (let i = 0; i < navLinks.length; i++) {
+  navLinks[i].addEventListener('click', function () {
+    // Remove active class from all links
+    for (let j = 0; j < navLinks.length; j++) {
+      navLinks[j].classList.remove('active');
+    }
+    // Add active class to the clicked link
+    this.classList.add('active');
+  });
+};
+
+
 // Typed.js for typing effect
 var typed = new Typed('.text2', {
     strings: ['UI Developer', 'Frontend Developer'],
@@ -50,5 +64,18 @@ techimg.addEventListener('mouseout', () => toggleImage(false));
 techbar.addEventListener('mouseover', () => toggleImage(true));
 techbar.addEventListener('mouseout', () => toggleImage(false));
 
+
+// scroll-to-top button / Wait until the DOM is fully loaded
+document.addEventListener("DOMContentLoaded", function () {
+    let scrollBtn = document.getElementById("scrollToTopBtn");
+
+    scrollBtn.addEventListener("click", function () {
+        // Smooth scroll to top
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+});
 
 
