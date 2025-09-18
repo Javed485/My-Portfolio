@@ -79,3 +79,27 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+// Disable Right Click
+// document.addEventListener("contextmenu", function(e){
+//     e.preventDefault();
+// });
+
+// // Disabled Keyboard Shortcut Keys 
+// document.addEventListener("keydown", function(e) {
+//     // F12
+//     if (e.key === "F12") {
+//         e.preventDefault();
+//     }
+
+//     // Ctrl+Shift+I or Ctrl+Shift+J
+//     if ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === "I" || e.key === "J")) {
+//         e.preventDefault();
+//     }
+
+//     // Ctrl+U (View Source)
+//     if ((e.ctrlKey || e.metaKey) && e.key === "u") {
+//         e.preventDefault();
+//     }
+// });
+
+  

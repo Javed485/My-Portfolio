@@ -21,7 +21,7 @@ let project = [
         projectName: "Culture Wedding",
         projectDetail: "Culture Wedding is a beautifully designed website that showcases traditional wedding services, themes, and cultural values. The goal was to create an elegant, user-friendly platform where couples and families can explore wedding ideas, book services, and learn about cultural traditions.",
         tech: ['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT' ],
-        link: "",
+        link: "https://culturedwedding.wasmer.app/",
     },
     {
         id: 4,
@@ -55,14 +55,14 @@ let project = [
         tech: ['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT' ],
         link: "https://fabfour.in/",
     },
-    // {
-    //     id: 8,
-    //     projectImage: "assets/projects/bulk/sab electric.jpg",
-    //     projectName: "Sab Electrical",
-    //     projectDetail: "The UI of the SAB Electricals & Electronics website should feature a clear and well-structured layout that enables industrial buyers to easily explore product categories, view detailed specifications, and understand brand associations (such as SAB Electricals, Uniweld, Comec, Dowells, and others).",
-    //     tech: ['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT' ],
-    //     link: "",
-    // },
+    {
+        id: 8,
+        projectImage: "assets/projects/bulk/sab electric.jpg",
+        projectName: "Sab Electrical",
+        projectDetail: "The UI of the SAB Electricals & Electronics website should feature a clear and well-structured layout that enables industrial buyers to easily explore product categories, view detailed specifications, and understand brand associations (such as SAB Electricals, Uniweld, Comec, Dowells, and others).",
+        tech: ['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT' ],
+        link: "https://sab-electrical.wasmer.app/",
+    },
     {
         id: 9,
         projectImage: "assets/projects/bulk/G-k-Industry.png",
