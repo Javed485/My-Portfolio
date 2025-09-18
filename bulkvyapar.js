@@ -1,7 +1,7 @@
 let project = [
     {
         id: 1,
-        projectImage: "assets/projects/bulk/bulkvyapar.png",
+        projectImage: "assets/projects/bulk/bulkvyapar.jpg",
         projectName: "Bulkvyapar Network",
         projectDetail: "I designed and developed the BulkVyapar website from scratch using HTML, CSS, Bootstrap, and JavaScript. My role was focused on UI/UX design and frontend development, ensuring the platform was clean, responsive, and user-friendly for B2B buyers and suppliers.",
         tech: ['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'PHP', 'LARAVEL' ],
@@ -130,10 +130,18 @@ let project = [
     {
         id: 17,
         projectImage: "assets/projects/bulk/Abbott-Fab.png",
-        projectName: "Abbott Fab ",
+        projectName: "Abbott Fab",
         projectDetail: "The UI of the Abbott FAB website serves as a bridge between the brand’s rich heritage and its modern design sensibility. It should provide a visually appealing and user-friendly interface that allows visitors to easily explore a wide range of products.",
         tech: ['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT' ],
         link: "https://abbott.bulkvyapar.com/",
+    },
+    {
+        id: 18,
+        projectImage: "assets/projects/bulk/ews-sports.png",
+        projectName: "EWS Sports",
+        projectDetail: "Design and develop a compelling, conversion-focused landing page that reflects the brand’s identity—trustworthy, high-performance, and innovation-driven. The UI should clearly communicate the company’s value proposition.",
+        tech: ['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT' ],
+        link: "https://ews-sports.netlify.app/",
     }
 ];
 
@@ -174,7 +182,7 @@ function projectsBox(){
         let link = document.createElement('a');
         link.href = el.link;
         link.target = '_blank';
-        link.innerText = 'Live Link';
+        link.innerText = 'View Website';
         
         liLink.appendChild(link);
         ul.appendChild(liLink);
