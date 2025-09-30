@@ -9,6 +9,14 @@ let project = [
     },
     {
         id: 2,
+        projectImage: "assets/projects/bulk/Medical-Help.png",
+        projectName: "Medical Help Desk",
+        projectDetail: "I designed and developed the BulkVyapar website from scratch using HTML, CSS, Bootstrap, and JavaScript. My role was focused on UI/UX design and frontend development, ensuring the platform was clean, responsive, and user-friendly for B2B buyers and suppliers.",
+        tech: ['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'PHP', 'LARAVEL' ],
+        link: "https://medicalhelpdesk.in/",
+    },
+    {
+        id: 3,
         projectImage: "assets/projects/bulk/find.png",
         projectName: "Find Distributer",
         projectDetail: "To find distributors for your product, first, prepare a comprehensive information package detailing your business, target market, pricing, and support plans. Then, leverage industry-specific online marketplaces and attend trade shows to find and contact potential distributors directly. Lastly, evaluate their motivation and capability, and be ready to offer marketing support to build a strong partnership and ensure successful distribution.",
@@ -16,7 +24,7 @@ let project = [
         link: "https://javed485.github.io/find-distributer/",
     },
     {
-        id: 3,
+        id: 4,
         projectImage: "assets/projects/bulk/culture.png",
         projectName: "Culture Wedding",
         projectDetail: "Culture Wedding is a beautifully designed website that showcases traditional wedding services, themes, and cultural values. The goal was to create an elegant, user-friendly platform where couples and families can explore wedding ideas, book services, and learn about cultural traditions.",
@@ -24,7 +32,7 @@ let project = [
         link: "https://culturedwedding.wasmer.app/",
     },
     {
-        id: 4,
+        id: 5,
         projectImage: "assets/projects/bulk/gum king.jpg",
         projectName: "Gumking",
         projectDetail: "At Gumking, we pride ourselves on being a premier manufacturer and exporter of high-quality guar gum products and their derivatives. With years of industry experience and a commitment to excellence, we serve clients worldwide with a wide range of applications for guar gum.",
@@ -32,7 +40,7 @@ let project = [
         link: "https://gumking.in/",
     },
     {
-        id: 5,
+        id: 6,
         projectImage: "assets/projects/bulk/mag pow.jpg",
         projectName: "Magnet Powertech",
         projectDetail: "Magnet Powertech Is Leading Supplier and Manufacturer of Solar Energy Products and Domestic and Commercial LED Lighting Products. Bright Power System Technology is in Existence since year 2017.",
@@ -40,7 +48,7 @@ let project = [
         link: "https://magnetpowertech.com/",
     },
     {
-        id: 6,
+        id: 7,
         projectImage: "assets/projects/bulk/chemical.png",
         projectName: "Prosperous World Chemical",
         projectDetail: "Prosperous world chemical is one of leading firm in laboratory outsourcing services, in Jharkhand State, India. We provide technical know-how, trained staff and specialized chemists to perform various regular test of your chemistry lab, in various running plants, like Steel, Cement, Water treatment etc.",
@@ -48,7 +56,7 @@ let project = [
         link: "https://www.pwchemical.in/",
     },
     {
-        id: 7,
+        id: 8,
         projectImage: "assets/projects/bulk/fab four.jpg",
         projectName: "Fab Four Technoplast",
         projectDetail: "Fab Four Technoplast , an ISO 9001:2015 certified company, is one of the leading manufacturers and exporters of Plastic Injection Molded parts in India . In 2022, Fab Four Industries, a leading plastic injection moulding company was established by a group of Four Fabulous friends based in Rudrapur and Kashipur.",
@@ -56,7 +64,7 @@ let project = [
         link: "https://fabfour.in/",
     },
     {
-        id: 8,
+        id: 9,
         projectImage: "assets/projects/bulk/sab electric.jpg",
         projectName: "Sab Electrical",
         projectDetail: "The UI of the SAB Electricals & Electronics website should feature a clear and well-structured layout that enables industrial buyers to easily explore product categories, view detailed specifications, and understand brand associations (such as SAB Electricals, Uniweld, Comec, Dowells, and others).",
@@ -64,7 +72,7 @@ let project = [
         link: "https://sab-electrical.wasmer.app/",
     },
     {
-        id: 9,
+        id: 10,
         projectImage: "assets/projects/bulk/G-k-Industry.png",
         projectName: "GK Industry",
         projectDetail: "To create a clean, intuitive, and conversion-optimized interface that highlights the company's leadership in the disposable machinery industry, showcases products effectively, and enhances the user's trust and buying decision.",
@@ -72,7 +80,7 @@ let project = [
         link: "https://gkindustries.netlify.app/",
     },
     {
-        id: 10,
+        id: 11,
         projectImage: "assets/projects/bulk/A-V-car.png",
         projectName: "AV car Accessories",
         projectDetail: "The User Interface (UI) of the AV Car Accessories website is crucial in delivering a sleek, modern, and user-centric shopping experience for car enthusiasts and everyday drivers alike. The UI should present a visually appealing layout that makes it easy for users to browse various car accessories, from tech gadgets to performance upgrades.",
@@ -80,7 +88,7 @@ let project = [
         link: "https://av-car-accessories.netlify.app/",
     },
     {
-        id: 11,
+        id: 12,
         projectImage: "assets/projects/bulk/Ganpati-industries.png",
         projectName: "Ganpati Industries",
         projectDetail: "The interface should guide users seamlessly through product offerings, certifications, and applications, while emphasizing the company’s experience and quality assurance. Strategic placement of visuals, product data, and inquiry forms will ensure a user-friendly experience that drives engagement, builds trust, and converts visitors into clients.",
@@ -88,7 +96,7 @@ let project = [
         link: "https://ganpati-industries.netlify.app/",
     },
     {
-        id: 12,
+        id: 13,
         projectImage: "assets/projects/bulk/Maa-Mansha.png",
         projectName: "Maa Mansha Cycle",
         projectDetail: "The User Interface (UI) of Maa Mansha Cycle Company’s website plays a vital role in presenting a seamless and informative experience for users looking to explore, evaluate, or purchase bicycles. It should be designed to clearly display different cycle models, specifications, and pricing, along with tools or guides to help users determine the value of their cycles based on make, model, and condition.",
@@ -96,7 +104,7 @@ let project = [
         link: "https://maa-mansha-cycle.netlify.app/",
     },
     {
-        id: 13,
+        id: 14,
         projectImage: "assets/projects/bulk/AK-Engineers.png",
         projectName: "AK Engineers",
         projectDetail: "Create user-friendly, responsive web pages that make it easy for users to explore our machinery catalog, understand product specifications, and request quotes. Visually emphasize the superior build, functionality, and efficiency of our machines using high-resolution images, videos, and technical datasheets.",
@@ -104,7 +112,7 @@ let project = [
         link: "https://akengineers.netlify.app/",
     },
     {
-        id: 14,
+        id: 15,
         projectImage: "assets/projects/bulk/Zealup.png",
         projectName: "Zealup Scooter",
         projectDetail: "The UI of the Zealup website plays a key role in showcasing the brand’s innovation, sustainability, and modern mobility solutions. It should offer a clean, energetic, and user-friendly interface that highlights the cutting-edge design and eco-friendly benefits of our electric scooters.",
@@ -112,7 +120,7 @@ let project = [
         link: "https://zealup-scooter.netlify.app/",
     },
     {
-        id: 15,
+        id: 16,
         projectImage: "assets/projects/bulk/RajLaxmi.png",
         projectName: "RajLaxmi Fashion",
         projectDetail: "The UI of the Rajlaxmi Creation website should reflect the elegance and cultural richness of traditional Indian fashion. It must offer a visually appealing, easy-to-navigate interface that highlights the premium quality and affordability of our cotton sarees and unstitched suits.",
@@ -120,7 +128,7 @@ let project = [
         link: "https://rajlaxmi-fashion.netlify.app/",
     },
     {
-        id: 16,
+        id: 17,
         projectImage: "assets/projects/bulk/Mark-Author.png",
         projectName: "Marc & Author",
         projectDetail: "The UI of the Marc & Author website should present a sophisticated, modern, and technology-driven interface that reflects the company’s multifaceted expertise across Interiors, Engineering, Civil, Fabrication, and Turnkey services.",
@@ -128,7 +136,7 @@ let project = [
         link: "https://marcandauthor.netlify.app/",
     },
     {
-        id: 17,
+        id: 18,
         projectImage: "assets/projects/bulk/Abbott-Fab.png",
         projectName: "Abbott Fab",
         projectDetail: "The UI of the Abbott FAB website serves as a bridge between the brand’s rich heritage and its modern design sensibility. It should provide a visually appealing and user-friendly interface that allows visitors to easily explore a wide range of products.",
@@ -136,7 +144,7 @@ let project = [
         link: "https://abbott.bulkvyapar.com/",
     },
     {
-        id: 18,
+        id: 19,
         projectImage: "assets/projects/bulk/ews-sports.png",
         projectName: "EWS Sports",
         projectDetail: "Design and develop a compelling, conversion-focused landing page that reflects the brand’s identity—trustworthy, high-performance, and innovation-driven. The UI should clearly communicate the company’s value proposition.",
@@ -194,7 +202,6 @@ function projectsBox(){
 };
 
 projectsBox();
-
 
 
 
