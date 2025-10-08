@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 
 <body>
@@ -42,7 +43,7 @@
                     </div>
                     <div class="cv-btn">
                         <a href="assets/JavedResume.pdf" download target="_blank" class="pf-btn">
-                            <span>Download CV</span>
+                            <span></span>
                             <i class="fa-solid fa-download"></i>
                         </a>
                     </div>
@@ -317,7 +318,7 @@
                 <p class="desc" data-aos="fade-up">
                     As a UI Developer, I’ve worked on a variety of web projects focused on clean design, smooth user interactions, and responsive performance. Each project reflects my ability to turn design concepts into intuitive, real-world user interfaces using modern framework like Bootstrap.
                 </p>
-                <div class="project-container">
+                <div class="project-container project_slider">
                     <div class="project-box" data-aos="fade-up">
                         <div class="project-img">
                             <img src="assets/projects/bulkvyapar.png" alt="">
@@ -361,7 +362,6 @@
                             <button type="button" id="projectbtn_4" class="btn">Read More</button>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -626,8 +626,10 @@
         </div>
     </section>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="main.js"></script>
     <script>
         // Project Modal Section
@@ -684,8 +686,6 @@
             // disable: false
         });
     </script> 
-    
-
 </body>
 
 </html>

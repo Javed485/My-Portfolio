@@ -890,7 +890,7 @@ section .banner-content {
 .project-section .project-content .project-container .project-box {
     width: 23%;
     padding: 0.75rem;
-    margin-bottom: 2.5%;
+    margin-bottom: 0.8%;
     border-radius: 0.6rem;
     background-color: var(--light-theme);
     border: 0.1rem solid var(--main-color);
@@ -988,6 +988,18 @@ section .banner-content {
 .project-section .project-content .project-container .project-box .project-text button.btn:hover {
     background-color: var(--black);
     border: 2px solid var(--white);
+}
+
+.slick-prev,
+.slick-next{
+    display: none !important;
+}
+
+.project_slider .slick-slide {
+    margin: 0 7px;
+}
+.project_slider .slick-list {
+    margin: 0 -7px;
 }
 
 /* ========== Modal Image Section ===========*/
@@ -1473,6 +1485,8 @@ footer .footer-content {
     font-size: 0.9rem;
     color: var(--white);
 }
+
+
 
 
 

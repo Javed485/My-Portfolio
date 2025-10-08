@@ -80,8 +80,7 @@
     }
 
     header .navbar nav,
-    header .navbar .right-menu .vertical-line,
-    header .navbar .right-menu .cv-btn .pf-btn span {
+    header .navbar .right-menu .vertical-line {
         display: none;
     }
 
