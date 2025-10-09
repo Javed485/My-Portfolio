@@ -41,7 +41,7 @@ for (let i = 0; i < navLinks.length; i++) {
 // Download CV change Text
 let cvText = document.querySelector(".pf-btn span");
 function updateSpanText() {
-  if (window.innerWidth < 768) {
+  if (window.innerWidth < 992) {
     cvText.textContent = "CV";
   } else {
     cvText.textContent = "Download CV";
@@ -119,6 +119,36 @@ document.addEventListener("DOMContentLoaded", function () {
             behavior: 'smooth'
         });
     });
+});
+
+
+
+const form = document.getElementById("contactForm");
+const popup = document.getElementById("thankYouPopup");
+const closeBtn = document.getElementById("closePopup");
+
+form.addEventListener("submit", async (e) => {
+    e.preventDefault(); 
+    const formData = new FormData(form);
+
+    // Send data to Formspree using fetch
+    const response = await fetch(form.action, {
+        method: "POST",
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+        form.reset(); // clear the form
+        popup.style.display = "block"; // show popup
+    } else {
+        alert("❌ Something went wrong. Please try again.");
+    }
+});
+
+// Close popup
+closeBtn.addEventListener("click", () => {
+    popup.style.display = "none";
 });
 
 

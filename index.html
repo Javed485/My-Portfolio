@@ -178,18 +178,24 @@
                             <h3>jQuery</h3>
                         </div>
                     </div>
+                    <div class="tech-bar tech-img">
+                        <div class="tech-item">
+                            <i class="fa-brands fa-react"></i>
+                            <h3>React</h3>
+                        </div>
+                    </div>
                     <div class="tech-bar">
                         <div class="tech-item">
                             <i class="fa-brands fa-figma"></i>
                             <h3>Figma</h3>
                         </div>
                     </div>
-                    <div class="tech-bar">
+                    <!-- <div class="tech-bar">
                         <div class="tech-item">
                             <i class="fa-brands fa-git"></i>
                             <h3>Git</h3>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="tech-bar">
                         <div class="tech-item">
                             <i class="fa-brands fa-github"></i>
@@ -490,21 +496,30 @@
                     </div>
                 </div>
                 <div class="contact-box" data-aos="fade-up">
-                    <form action="#">
+                    <form id="contactForm" autocomplete="off" method="POST" action="https://formspree.io/f/xblzangg" >
                         <h2 class="heading">Contact <span>Me!</span></h2>
                         <div class="field-box">
-                            <input type="text" placeholder="Full Name" required>
-                            <input type="text" placeholder="Email Address" required>
-                            <input type="text" placeholder="Phone Number" required>
-                            <input type="text" placeholder="Email Subject" required>
-                            <textarea name="" id="" placeholder="Your Message" required></textarea>
+                            <input type="text" name="name" autocomplete="off" placeholder="Full Name" required>
+                            <input type="email" name="email" autocomplete="off" placeholder="Email Address" required>
+                            <input type="number" name="phone" autocomplete="off" pattern="(\+91[-\s]?)?[0]?[6-9][0-9]{9}" placeholder="Phone Number" required>
+                            <input type="text" name="subject" autocomplete="off" placeholder="Email Subject" required>
+                            <textarea name="message" autocomplete="new-password" placeholder="Your Message" required></textarea>
                         </div>
                         <button type="submit" class="btn">Send Message</button>
                     </form>
                 </div>
             </div>
+            <!-- Popup -->
+            <div id="thankYouPopup" class="popup">
+                <div class="popup-content">
+                    <img src="assets/thank.png" />
+                    <p>Thank you! Your message has been sent.</p>
+                    <button id="closePopup">Okay</button>
+                </div>
+            </div>
         </div>
     </section>
+      
 
     <!-- Footer Section -->
     <footer>

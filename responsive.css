@@ -63,6 +63,9 @@
     .contact-section .contact-content .contact-box .field-box textarea{
         height: 12rem;
     }
+    .contact-section .popup-content{
+        width: 40%;
+    }
 }
 @media screen and (max-width: 992px) {
     /* ========== Header Section ===========*/
@@ -90,11 +93,10 @@
 
     header .navbar .right-menu {
         position: absolute;
-        right: 7%;
+        right: 5%;
         gap: 7px;
     }
     
-
     header .navbar nav {
         position: absolute;
         top: 99%;
@@ -168,6 +170,9 @@
     }
     .tech-section .tech-content .skill-text h6 {
         font-size: 6rem;
+    }
+    .contact-section .popup-content{
+        width: 50%;
     }
     /* ========== Footer Section ===========*/
     footer .footer-content {
@@ -380,7 +385,12 @@
         padding: 0.8rem;
         font-size: 1.02rem;
     }
-
+    .contact-section .popup-content{
+        width:80%;
+    }
+    .contact-section .popup-content img {
+        height: 200px;
+    }
     /* ========== Footer Section ===========*/
     footer{
         margin-top: 2rem;
