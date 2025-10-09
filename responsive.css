@@ -135,6 +135,7 @@
     header .navbar .right-menu .cv-btn .pf-btn {
         background-color: transparent;
         border: 0px solid transparent;
+        font-size: 1rem;
     }
     header .navbar .right-menu .cv-btn .pf-btn:hover {
         background-color: transparent;
@@ -450,7 +451,7 @@
         font-weight: 700;
     }
     .project-section .project-content .project-container {
-        margin-top: 1.75rem;
+        margin-top: 3rem;
     }
     .project-section .project-content .project-container .project-box {
         width: 100%;

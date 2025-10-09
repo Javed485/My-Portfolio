@@ -31,12 +31,11 @@ body {
 }
 
 body.light {
-    background: linear-gradient(90deg,
-            #7f8386 1.67%,
-            #43617e 39.95%,
-            #04192d 58.24%,
-            #040e18 80.28%,
-            #050c16 101.48%);
+    background-color: #4a4d4e;
+}
+
+body.light header {
+    background-color: #4a4d4e;
 }
 
 .container {
@@ -990,16 +989,45 @@ section .banner-content {
     border: 2px solid var(--white);
 }
 
-.slick-prev,
+/* .slick-prev,
 .slick-next{
     display: none !important;
-}
+} */
 
 .project_slider .slick-slide {
     margin: 0 7px;
 }
 .project_slider .slick-list {
     margin: 0 -7px;
+}
+
+.project_slider .slick-prev,
+.project_slider .slick-next{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: var(--white);
+    background-color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 4px;
+    box-shadow: none;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 4px 8px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    transition: all 0.35s ease;
+    position: absolute;
+    top: -7%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+.project_slider .slick-prev {
+    right: 50px; 
+}
+.project_slider .slick-next {
+    right: 10px; 
 }
 
 /* ========== Modal Image Section ===========*/
