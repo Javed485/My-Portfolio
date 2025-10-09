@@ -1286,6 +1286,23 @@ section .banner-content {
     left: -1.1rem;
 }
 
+/* ========== Certificate Section ===========*/
+.certifi-section .certifi-content {
+    margin: 3rem 0;
+    color: var(--white);
+}
+
+.certifi-section .certifi-content h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.certifi-section .certifi-content p.desc {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin: 1.5rem 0 0;
+}
+
 
 /* ========== Contact Section ===========*/
 section.contact-section {
@@ -1572,3 +1589,169 @@ footer .footer-content {
 
 
 
+
+
+.carousel-container {
+	width: 100%;
+	max-width: 1200px;
+	height: 330px;
+	position: relative;
+	perspective: 1000px;
+	margin-top: 2rem;
+}
+
+.carousel-track {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	transform-style: preserve-3d;
+	transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.card {
+	position: absolute;
+	height: 300px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+	will-change: transform, opacity;
+	transition: transform 0.8s ease, opacity 0.8s ease;
+    /* transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); */
+}
+
+.card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: filter 0.8s ease;
+    /* transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); */
+}
+
+.card.center {
+	z-index: 10;
+	transform: scale(1.1) translateZ(0);
+}
+
+.card.center img {
+	filter: none;
+}
+
+.card.left-2 {
+	z-index: 1;
+	transform: translateX(-400px) scale(0.8) translateZ(-150px);
+	opacity: 0.7;
+}
+
+.card.left-2 img {
+	filter: grayscale(100%);
+}
+
+.card.left-1 {
+	z-index: 5;
+	transform: translateX(-200px) scale(0.9) translateZ(-50px);
+	opacity: 0.9;
+}
+
+.card.left-1 img {
+	filter: grayscale(100%);
+}
+
+.card.right-1 {
+	z-index: 5;
+	transform: translateX(200px) scale(0.9) translateZ(-50px);
+	opacity: 0.9;
+}
+
+.card.right-1 img {
+	filter: grayscale(100%);
+}
+
+.card.right-2 {
+	z-index: 1;
+	transform: translateX(400px) scale(0.8) translateZ(-150px);
+	opacity: 0.7;
+}
+
+.card.right-2 img {
+	filter: grayscale(100%);
+}
+
+.card.hidden {
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+.dots {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 60px;
+}
+
+.dot {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+    border: 1px solid var(--main-color);
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.dot.active {
+	background: var(--main-color);
+	transform: scale(1.2);
+}
+
+
+
+@media (max-width: 768px) {
+    .carousel-container {
+        height: 170px;
+    }
+	.card {
+		/* width: 200px; */
+		height: 150px;
+	}
+
+	.card.left-2 {
+		transform: translateX(-200px) scale(0.8) translateZ(-350px);
+	}
+
+	.card.left-1 {
+		transform: translateX(-100px) scale(0.9) translateZ(-150px);
+	}
+
+	.card.right-1 {
+		transform: translateX(100px) scale(0.9) translateZ(-150px);
+	}
+
+	.card.right-2 {
+		transform: translateX(200px) scale(0.8) translateZ(-350px);
+	}
+
+	.member-name {
+		font-size: 2rem;
+	}
+
+	.member-role {
+		font-size: 1.2rem;
+	}
+
+	.member-name::before,
+	.member-name::after {
+		width: 50px;
+	}
+
+	.member-name::before {
+		left: -70px;
+	}
+
+	.member-name::after {
+		right: -70px;
+	}
+}
