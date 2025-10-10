@@ -1715,19 +1715,19 @@ footer .footer-content {
         width: 60%;  
     }
 	.carousel-track .card.left-2 {
-		transform: translateX(-200px) scale(0.8) translateZ(-350px);
+		transform: translateX(-150px) scale(0.8) translateZ(-350px);
 	}
 
 	.carousel-track .card.left-1 {
-		transform: translateX(-90px) scale(0.9) translateZ(-150px);
+		transform: translateX(-70px) scale(0.9) translateZ(-150px);
 	}
 
 	.carousel-track .card.right-1 {
-		transform: translateX(75px) scale(0.9) translateZ(-150px);
+		transform: translateX(70px) scale(0.9) translateZ(-150px);
 	}
 
 	.carousel-track .card.right-2 {
-		transform: translateX(175px) scale(0.8) translateZ(-350px);
+		transform: translateX(150px) scale(0.8) translateZ(-350px);
 	}	
 }
 
