@@ -210,11 +210,11 @@ dots.forEach((dot, i) => {
 	});
 });
 
-cards.forEach((card, i) => {
-	card.addEventListener("click", () => {
-		updateCarousel(i);
-	});
-});
+// cards.forEach((card, i) => {
+// 	card.addEventListener("click", () => {
+// 		updateCarousel(i);
+// 	});
+// });
 
 document.addEventListener("keydown", (e) => {
 	if (e.key === "ArrowLeft") {
@@ -226,37 +226,48 @@ document.addEventListener("keydown", (e) => {
 
 updateCarousel(0);
 
-const autoplayInterval = 4000;
-setInterval(() => {
-	updateCarousel(currentIndex + 1);
-}, autoplayInterval);
+// const autoplayInterval = 4000;
+// setInterval(() => {
+// 	updateCarousel(currentIndex + 1);
+// }, autoplayInterval);
 
 
+// Show Image Popup Image
+const popupModal = document.getElementById("popupModal");
+const popupImage = document.getElementById("popupImage");
+const closeImageBtn = document.getElementById("closeBtn");
 
-// function handleSwipe() {
-// 	const swipeThreshold = 50;
-// 	const diff = touchStartX - touchEndX;
+cards.forEach((card, i) => {
+	card.addEventListener("click", () => {
+		// If it's already the center card, open modal
+		if (card.classList.contains("center")) {
+			const img = card.querySelector("img");
+			if (img) {
+				popupImage.src = img.src;
+				popupModal.style.display = "flex";
+			}
+		} else {
+			// Otherwise, make it the center card
+			updateCarousel(i);
+		}
+	});
+});
 
-// 	if (Math.abs(diff) > swipeThreshold) {
-// 		if (diff > 0) {
-// 			updateCarousel(currentIndex + 1);
-// 		} else {
-// 			updateCarousel(currentIndex - 1);
-// 		}
+// Close popup modal
+closeImageBtn.addEventListener("click", () => {
+	popupModal.style.display = "none";
+});
+// Optional: Click outside to close
+// popupModal.addEventListener("click", (e) => {
+// 	if (e.target === popupModal) {
+// 		popupModal.style.display = "none";
 // 	}
-// }
-
-// let touchStartX = 0;
-// let touchEndX = 0;
-
-// document.addEventListener("touchstart", (e) => {
-// 	touchStartX = e.changedTouches[0].screenX;
 // });
 
-// document.addEventListener("touchend", (e) => {
-// 	touchEndX = e.changedTouches[0].screenX;
-// 	handleSwipe();
-// });
+
+
+
+
 
 
 // Disable Right Click

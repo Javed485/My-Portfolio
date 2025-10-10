@@ -1332,7 +1332,6 @@ section .banner-content {
 	aspect-ratio: 4 / 3; /* Maintains shape across screens */
 	overflow: hidden;
 	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-	/* cursor: pointer; */
 	will-change: transform, opacity;
 	transition: transform 0.8s ease, opacity 0.8s ease;
 }
@@ -1346,6 +1345,7 @@ section .banner-content {
 
 .carousel-track .card.center {
 	z-index: 10;
+    cursor: pointer;
 	/* transform: scale(1.1) translateZ(0); */
 }
 .carousel-track .card.center img {
@@ -1374,7 +1374,6 @@ section .banner-content {
 	transform: translateX(32vw) scale(0.8) translateZ(-200px);
 	opacity: 0.7;
 }
-
 
 .carousel-track .card.left-1 img,
 .carousel-track .card.left-2 img,
@@ -1409,6 +1408,33 @@ section .banner-content {
 	transform: scale(1.2);
 }
 
+.certifi-section .carousel-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0; 
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(4, 12, 22, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.certifi-section .carousel-modal img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+
+.certifi-section .close-button {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
 
 /* ========== Contact Section ===========*/
 section.contact-section {
@@ -1611,7 +1637,6 @@ section.contact-section {
     background-color: var(--black);
     border: 2px solid var(--white);
 }
-
 
 /* ========== Footer Section ===========*/
 footer {
