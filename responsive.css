@@ -175,10 +175,21 @@
     .contact-section .popup-content{
         width: 50%;
     }
+    /* ========== Project Section ===========*/
+    .project-section .project-content .project-container {
+        margin-top: 2rem;
+    }
+    .project-section .project-content .project-container .project-box {
+        width: 31%;
+    }
+    .modalImg-section .modal .modal-content {
+        width: 60%;
+    }
     /* ========== Footer Section ===========*/
     footer .footer-content {
         font-size: 1.1rem;
     }
+    
 }
 @media screen and (min-width: 768px) and (max-width:992px){
     .banner-content .left-content h1 {
@@ -347,6 +358,75 @@
         border-left: 0rem;
         left: -1rem;
     }
+
+    /* ========== Projectte Section ===========*/
+    .project-section .project-content {
+        margin: 2rem 0 0 0;
+    }
+    .project-section .project-content h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .project-section .project-content .project-container {
+        margin-top: 3rem;
+    }
+    .project-section .project-content .project-container .project-box {
+        width: 100%;
+    }
+    .project-section .project-content .project-container .project-box .project-img img {
+        height: 100%;
+    }
+    .project-section .project-content .project-container .project-box .project-text h3 {
+        font-size: 1.1rem;
+        margin-top: 0.9rem;
+        line-height: 1.1;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .project-section .project-content .project-container .project-box .project-text p {
+        margin-top: 0.4rem;
+    }
+    .modalImg-section .modal .modal-content {
+        width: 90%;
+    }
+    .modalImg-section .modal .modal-content .modal-body {
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+    
+    .modalImg-section .modal .modal-content .modal-body .modal-img,
+    .modalImg-section .modal .modal-content .modal-body .modal-text {
+        width: 100%;
+    }
+    .modalImg-section .modal .modal-content .modal-body .modal-img img {
+        height: 10rem;
+    }
+    .modalImg-section .modal .modal-content .modal-body .modal-text h3{
+        font-size: 1.3rem;
+        margin: 0;
+    }
+    .modalImg-section .modal .modal-content .modal-body .modal-text p{
+        font-size: 0.9rem;
+        margin-top: 0.3rem;
+    }
+    
+    /* ========== Certificate Section ===========*/
+    .certifi-section .certifi-content {
+        margin: 2rem 0;
+    }
+    
+    .certifi-section .certifi-content h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .certify-container .dots {
+        margin-top: 2rem;
+    }
+
     /* ========== Contact Section ===========*/
     .contact-section .contact-content {
         flex-direction: column;
@@ -430,19 +510,7 @@
     }
 } 
 
-
-@media screen and (max-width: 992px){
-    .project-section .project-content .project-container {
-        margin-top: 2rem;
-    }
-    .project-section .project-content .project-container .project-box {
-        width: 31%;
-    }
-    .modalImg-section .modal .modal-content {
-        width: 60%;
-    }
-}
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
     .project-section .project-content {
         margin: 2rem 0 0 0;
     }
@@ -495,7 +563,7 @@
         font-size: 0.9rem;
         margin-top: 0.3rem;
     }
-}
+} */
 
 
 
