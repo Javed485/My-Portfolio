@@ -224,29 +224,27 @@ document.addEventListener("keydown", (e) => {
 	}
 });
 
-function handleSwipe() {
-	const swipeThreshold = 50;
-	const diff = touchStartX - touchEndX;
-
-	if (Math.abs(diff) > swipeThreshold) {
-		if (diff > 0) {
-			updateCarousel(currentIndex + 1);
-		} else {
-			updateCarousel(currentIndex - 1);
-		}
-	}
-}
-
 updateCarousel(0);
 
-// const autoplayInterval = 4000;
-// setInterval(() => {
-// 	updateCarousel(currentIndex + 1);
-// }, autoplayInterval);
+const autoplayInterval = 4000;
+setInterval(() => {
+	updateCarousel(currentIndex + 1);
+}, autoplayInterval);
 
 
 
+// function handleSwipe() {
+// 	const swipeThreshold = 50;
+// 	const diff = touchStartX - touchEndX;
 
+// 	if (Math.abs(diff) > swipeThreshold) {
+// 		if (diff > 0) {
+// 			updateCarousel(currentIndex + 1);
+// 		} else {
+// 			updateCarousel(currentIndex - 1);
+// 		}
+// 	}
+// }
 
 // let touchStartX = 0;
 // let touchEndX = 0;

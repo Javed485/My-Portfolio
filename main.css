@@ -1332,7 +1332,7 @@ section .banner-content {
 	aspect-ratio: 4 / 3; /* Maintains shape across screens */
 	overflow: hidden;
 	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-	cursor: pointer;
+	/* cursor: pointer; */
 	will-change: transform, opacity;
 	transition: transform 0.8s ease, opacity 0.8s ease;
 }
@@ -1689,55 +1689,6 @@ footer .footer-content {
     color: var(--white);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 568px) {
-    section.contact-section {
-        margin: 2rem 0 1rem 0;
-    }
-
-    .certify-container .carousel-container {
-        aspect-ratio: 16 / 7;
-    }
-
-    .carousel-track .card {
-        width: 60%;  
-    }
-	.carousel-track .card.left-2 {
-		transform: translateX(-150px) scale(0.8) translateZ(-350px);
-	}
-
-	.carousel-track .card.left-1 {
-		transform: translateX(-70px) scale(0.9) translateZ(-150px);
-	}
-
-	.carousel-track .card.right-1 {
-		transform: translateX(70px) scale(0.9) translateZ(-150px);
-	}
-
-	.carousel-track .card.right-2 {
-		transform: translateX(150px) scale(0.8) translateZ(-350px);
-	}	
-    .certify-container .dots .dot {
-        width: 8px;
-        height: 8px;
-    }
-}
 
 
 
