@@ -1708,26 +1708,26 @@ footer .footer-content {
 
 @media (max-width: 768px) {
     .certify-container .carousel-container {
-        aspect-ratio: 16 / 6;
+        aspect-ratio: 16 / 7;
     }
 
     .carousel-track .card {
-        width: 50%;  
+        width: 60%;  
     }
 	.carousel-track .card.left-2 {
-		transform: translateX(-200px) scale(0.8) translateZ(-350px);
+		transform: translateX(-175px) scale(0.8) translateZ(-350px);
 	}
 
 	.carousel-track .card.left-1 {
-		transform: translateX(-100px) scale(0.9) translateZ(-150px);
+		transform: translateX(-75px) scale(0.9) translateZ(-150px);
 	}
 
 	.carousel-track .card.right-1 {
-		transform: translateX(100px) scale(0.9) translateZ(-150px);
+		transform: translateX(75px) scale(0.9) translateZ(-150px);
 	}
 
 	.carousel-track .card.right-2 {
-		transform: translateX(200px) scale(0.8) translateZ(-350px);
+		transform: translateX(175px) scale(0.8) translateZ(-350px);
 	}	
 }
 
