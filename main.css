@@ -1706,7 +1706,11 @@ footer .footer-content {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 568px) {
+    section.contact-section {
+        margin: 2rem 0 1rem 0;
+    }
+
     .certify-container .carousel-container {
         aspect-ratio: 16 / 7;
     }
@@ -1729,6 +1733,10 @@ footer .footer-content {
 	.carousel-track .card.right-2 {
 		transform: translateX(150px) scale(0.8) translateZ(-350px);
 	}	
+    .certify-container .dots .dot {
+        width: 8px;
+        height: 8px;
+    }
 }
 
 
