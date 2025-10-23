@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
+// Contact Form
 const form = document.getElementById("contactForm");
 const popup = document.getElementById("thankYouPopup");
 const closeBtn = document.getElementById("closePopup");
