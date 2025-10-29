@@ -226,10 +226,10 @@ document.addEventListener("keydown", (e) => {
 
 updateCarousel(0);
 
-// const autoplayInterval = 4000;
-// setInterval(() => {
-// 	updateCarousel(currentIndex + 1);
-// }, autoplayInterval);
+const autoplayInterval = 4000;
+setInterval(() => {
+	updateCarousel(currentIndex + 1);
+}, autoplayInterval);
 
 
 // Show Image Popup Image
