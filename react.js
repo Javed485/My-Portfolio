@@ -17,11 +17,11 @@ let project = [
     },
     {
         id: 3,
-        projectImage: "assets/projects/react/Real-Estate.png",
-        projectName: "Real Estate",
-        projectDetail: "A Real Estate Landing Page built with React.js is a beginner-friendly project, clean and responsive layout. The main goal is to learn React components, props, hooks, and basic styling  while creating a visually appealing single-page website.",
-        tech: ['HTML', 'CSS', 'REACT JS', ],
-        link: "",
+        projectImage: "assets/projects/react/cityluxe.png",
+        projectName: "City Luxe Hotel",
+        projectDetail: "A React.js website built for CityLuxe Hotel that dynamically displays room details, destinations, and amenities. Featuring smooth routing, responsive design, fontawesome Icon and modern UI components , the app allows users to explore available suites, view high-quality images, and learn about CityLuxe’s luxury services — all in an elegant, interactive interface.",
+        tech: ['HTML', 'CSS', 'REACT JS', 'Routing' ],
+        link: "https://cityluxehotel.netlify.app/",
     },
     {
         id: 4,
@@ -38,23 +38,15 @@ let project = [
         projectDetail: "React.js is a beginner-friendly project with a clean and responsive design. It allows users to explore courses and colleges through dynamic content and interactive UI while helping learners practice React components, props, routing, and state management.",
         tech: ['HTML', 'CSS', 'REACT JS' ],
         link: "https://edusitysinglepage.netlify.app/",
+    },
+    {
+        id: 6,
+        projectImage: "assets/projects/react/Real-Estate.png",
+        projectName: "Real Estate",
+        projectDetail: "A Real Estate Landing Page built with React.js is a beginner-friendly project, clean and responsive layout. The main goal is to learn React components, props, hooks, and basic styling  while creating a visually appealing single-page website.",
+        tech: ['HTML', 'CSS', 'REACT JS', ],
+        link: "",
     }
-    // {
-    //     id: 6,
-    //     projectImage: "assets/projects/javascript/todo.png",
-    //     projectName: "Todo App",
-    //     projectDetail: "A To-Do App is a productivity tool that allows users to add, edit, delete, and mark tasks as completed. This project focuses on mastering DOM manipulation, event handling, and local storage to create a fully functional, interactive, and persistent task manager in the browser.",
-    //     tech: ['HTML', 'CSS', 'JAVASCRIPT', 'LOCAL STORAGE' ],
-    //     link: "https://todoappmobile.netlify.app/",
-    // }
-    // {
-    //     id: 7,
-    //     projectImage: "assets/projects/javascript/quiz.png",
-    //     projectName: "Quiz App",
-    //     projectDetail: "A dynamic Quiz Application that allows users to answer multiple-choice questions, track their score, and get feedback at the end. This project is excellent for practicing DOM manipulation, event handling, and working with arrays and objects in JavaScript.",
-    //     tech: ['HTML', 'CSS', 'JAVASCRIPT', 'LOCAL STORAGE' ],
-    //     link: "",
-    // }
 ];
 
 let projectContainer = document.querySelector('.project-container');
