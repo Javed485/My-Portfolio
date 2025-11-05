@@ -17,6 +17,14 @@ let project = [
     },
     {
         id: 3,
+        projectImage: "assets/projects/react/weather_app.png",
+        projectName: "Weather App",
+        projectDetail: "A React.js weather app that provides real-time weather updates for any City using a reliable Weather API. With a responsive design and modern UI elements, users can easily search cities, view current conditions, temperature, and forecasts through an elegant, interactive interface.",
+        tech: ['HTML', 'CSS', 'REACT JS', 'Weather API', 'Routing' ],
+        link: "https://weatherappcities.netlify.app/",
+    },
+    {
+        id: 4,
         projectImage: "assets/projects/react/cityluxe.png",
         projectName: "City Luxe Hotel",
         projectDetail: "A React.js website built for CityLuxe Hotel that dynamically displays room details, destinations, and amenities. Featuring smooth routing, responsive design, fontawesome Icon and modern UI components , the app allows users to explore available suites, view high-quality images, and learn about CityLuxe’s luxury services — all in an elegant, interactive interface.",
@@ -24,7 +32,7 @@ let project = [
         link: "https://cityluxehotel.netlify.app/",
     },
     {
-        id: 4,
+        id: 5,
         projectImage: "assets/projects/react/fitclub.png",
         projectName: "Fitclub Gym",
         projectDetail: "React.js is a beginner-friendly project featuring a clean and modern layout. It uses React Icons for visuals and the Framer Motion library for smooth animations. The main goal is to learn React components, props, and animation effects while creating an engaging and responsive fitness-themed website.",
@@ -32,7 +40,7 @@ let project = [
         link: "https://thefitclubsinglepage.netlify.app/",
     },
     {
-        id: 5,
+        id: 6,
         projectImage: "assets/projects/react/edusity.png",
         projectName: "Edusity",
         projectDetail: "React.js is a beginner-friendly project with a clean and responsive design. It allows users to explore courses and colleges through dynamic content and interactive UI while helping learners practice React components, props, routing, and state management.",
@@ -40,12 +48,12 @@ let project = [
         link: "https://edusitysinglepage.netlify.app/",
     },
     {
-        id: 6,
+        id: 7,
         projectImage: "assets/projects/react/Real-Estate.png",
         projectName: "Real Estate",
         projectDetail: "A Real Estate Landing Page built with React.js is a beginner-friendly project, clean and responsive layout. The main goal is to learn React components, props, hooks, and basic styling  while creating a visually appealing single-page website.",
         tech: ['HTML', 'CSS', 'REACT JS', ],
-        link: "",
+        link: "https://mdrealstate.netlify.app/",
     }
 ];
 
