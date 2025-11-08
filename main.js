@@ -271,9 +271,9 @@ closeImageBtn.addEventListener("click", () => {
 
 
 // Disable Right Click
-document.addEventListener("contextmenu", function(e){
-    e.preventDefault();
-});
+// document.addEventListener("contextmenu", function(e){
+//     e.preventDefault();
+// });
 
 // // Disabled Keyboard Shortcut Keys 
 // document.addEventListener("keydown", function(e) {
